@@ -7,3 +7,5 @@ echo "second branch"
 
 echo "firstbranch"
 echo "firstbranch"
+
+echo "second branch"
