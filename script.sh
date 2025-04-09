@@ -9,3 +9,4 @@ echo "firstbranch"
 echo "firstbranch"
 
 echo "second branch"
+echo "second branch"
