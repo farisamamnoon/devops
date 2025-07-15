@@ -1,5 +1,4 @@
 # 🚀 Azure Microservices Deployment with Azure DevOps and Argo CD
-
 This repository contains a multi-microservice voting application built with containerized components (vote, result, worker), each with independent Dockerfiles, demonstrating a complete Azure cloud CI/CD pipeline from GitHub to Azure Repos, using Azure Pipelines for builds, Azure Container Registry for image storage, Azure Kubernetes Service for deployment, and Argo CD for GitOps-based continuous delivery.
 
 ---
