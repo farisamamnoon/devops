@@ -1,0 +1,9 @@
+{
+    "yaml.schemas": {
+        "https://d1uauaxba7bl26.cloudfront.net/latest/CloudFormationResourceSpecification.json": "file:///Users/FarisMamnoon1/DevOps/cft.yaml",
+        "https://raw.githubusercontent.com/aws/serverless-application-model/main/samtranslator/schema/schema.json": [
+            "file:///Users/FarisMamnoon1/DevOps/key-pair%20template.yaml",
+            "file:///Users/FarisMamnoon1/DevOps/key-pair.yaml"
+        ]
+    }
+}
