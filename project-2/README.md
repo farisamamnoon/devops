@@ -40,11 +40,13 @@ First, create a resource group to logically group all your Azure resources.
 
 ```bash
 az group create --name <your-resource-group-name> --location <your-preferred-azure-region>
+```
 
 #### 1.2 Create Azure Container Registry 
 
 ```bash
 az acr create --resource-group <your-resource-group-name> --name <your-acr-name> --sku Basic
+```
 
 
 ### 2. Azure Devops Setup
@@ -97,8 +99,9 @@ az acr create --resource-group <your-resource-group-name> --name <your-acr-name>
 sudo apt update
 sudo apt install docker.io -y
 sudo usermod -aG docker <your_vm_user>
+```
 
-* After adding your user to the docker group, log out and log back in to the VM for the changes to take effect.
+> After adding your user to the docker group, log out and log back in to the VM for the changes to take effect.
 
 #### 2.3 Create Azure DevOps Pipelines (CI)
 
@@ -118,10 +121,10 @@ You'll create a separate build pipeline for each microservice. This enables inde
 
 ##### 2.3.2 Edit the YAML
 
-```
+```yaml
 trigger:
   paths:
     include:
     - vote/* 
-
+```
 
